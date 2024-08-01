@@ -1,0 +1,61 @@
+.table_container {
+  margin: 20px;
+}
+
+.table_container h2 {
+  text-align: center;
+}
+
+.review_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.create_button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: var(--color-green);
+  color: white;
+  border: none;
+  cursor: pointer;
+  float: right;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.create_button:hover {
+  background-color: var(--color-dark-green);
+}
+
+.review_table th,
+.review_table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.review_table th {
+  background-color: var(--color-gray);
+}
+
+.review_table td button {
+  padding: 5px 10px;
+  background-color: var(--color-green);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.review_table td button:hover {
+  background-color: var(--color-dark-green);
+}
+
+.review_table td .red_btn {
+  background-color: var(--color-red);
+  margin-right: 10px;
+}
+
+.review_table td button.delete:hover {
+  background-color: var(--color-dark-red);
+}

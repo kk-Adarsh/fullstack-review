@@ -1,0 +1,63 @@
+.create_review_container {
+  margin: 20px;
+}
+.create_review_container h2 {
+  text-align: center;
+}
+
+.create_review_container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create_review_container label {
+  margin-bottom: 10px;
+}
+
+.create_review_container input,
+.create_review_container textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.create_review_container button {
+  padding: 10px 20px;
+  background-color: var(--color-green);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.create_review_container button:hover {
+  background-color: var(--color-dark-green);
+}
+
+.create_review_container .green_btn {
+  background-color: var(--color-green);
+}
+.create_review_container .green_btn:hover {
+  background-color: var(--color-dark-green);
+}
+
+.create_review_container .blue_btn {
+  background-color: var(--color-blue);
+}
+.create_review_container .blue_btn:hover {
+  background-color: var(--color-dark-blue);
+}
+.create_review_container .red_btn {
+  background-color: var(--color-red);
+}
+.create_review_container .red_btn:hover {
+  background-color: var(--color-dark-red);
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
